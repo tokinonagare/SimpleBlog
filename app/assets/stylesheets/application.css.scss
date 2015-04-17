@@ -44,6 +44,14 @@ a {
 		right: 3em;
 		top: 3em;
 	}
+	p {
+		color: #9eafba;
+				text-decoration: none;
+				transition: all .4s ease;
+				&:hover {
+					color: #33acb7;
+				}
+	}
 	ul {
 		list-style: none;
 		text-align: right;
@@ -117,6 +125,10 @@ a {
 		a {
 			color: #9eafba;
 			text-decoration: none;
+			transition: all .4s ease;
+				&:hover {
+					color: #33acb7;
+				}
 		}
 		.buttons {
 			float: right;
@@ -209,6 +221,13 @@ a {
 	}
 	#page_wrapper {
 		padding: 3em;
+		a {
+				text-decoration: none;
+				transition: all .4s ease;
+				&:hover {
+					color: #33acb7;
+				}
+		}
 		#profile_image {
 			width: 300px;
 			float: left;
@@ -220,6 +239,7 @@ a {
 			}
 		}
 		#content {
+			min-width: 920px;
 			h1 {
 				font-weight: 500;
 			}

@@ -40,7 +40,7 @@
 		<% elsif current_page?(about_path)%>
 			<p>About</p>
 		<% else %>
-			<%= link_to "Back to Home", root_path %>
+			<p><%= link_to "Back to Home", root_path %></p>
 		<% end %>
 		
 		<% if user_signed_in? %>
